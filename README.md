@@ -1,3 +1,5 @@
+※ https://github.com/DiveintoCode-corp/worksample/blob/master/educational_mentor_web.md から転載
+
 # ワークサンプル for 教育メンター（Webエンジニアコース）
 
 ## 概要
