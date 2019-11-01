@@ -1,4 +1,13 @@
-※ https://github.com/DiveintoCode-corp/worksample/blob/master/educational_mentor_web.md から転載
+進捗状況
+
+- [x] 1_create_heading.mdに見出しを記述した
+- [ ] 2_fleshed_out_headline.mdに見出しに肉付けを行った文章を記述した
+- [x] 3_improve_sentences.mdに修正文を記述して、プルリクエストを送信した
+- [x] 4_question_answer.mdに回答を記述した
+
+※ 以下 https://github.com/DiveintoCode-corp/worksample/blob/master/educational_mentor_web.md から転載
+
+---
 
 # ワークサンプル for 教育メンター（Webエンジニアコース）
 
