@@ -20,7 +20,15 @@ RESTfulとは、簡単に言うと「操作したいリソースをURLで指定�
 この「操作したいリソース」が単一のものか複数かによって使い分けられているのです。
 
 次の例をご覧ください。
+```ruby
+Rails.application.routes.draw do
+  # ルーティングを定義
+  resources :blogs
+end
 ```
+
+```
+$ rake routes
    Prefix Verb   URI Pattern                 Controller#Action
     blogs GET    /blogs(.:format)            blogs#index
           POST   /blogs(.:format)            blogs#create
