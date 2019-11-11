@@ -45,14 +45,15 @@ Ruby on Railsの動作は、**Model, View, Controllerの3つの要素が役割�
 - Controller：ModelとViewの間を取り持つ。例えば、ユーザーから送信された値を受け取ってmodelに渡したり、modelから受け取った処理結果をviewに渡すなど。
 
 例：一般的なログイン処理と、MVCの関係（あくまでイメージです）
-![](https://i.imgur.com/0ovRrgk.jpg)
-1) ブラウザからメールアドレス・パスワードとともにリクエストが送信される
-2) リクエストからControllerがメールアドレス・パスワードを受け取り、Modelに渡す
-3) Modelがメールアドレス・パスワードを用いてユーザー情報をデータベースに問い合わせ、結果を取得
-4) Controllerは問い合わせ結果を受け取る
-5) Controllerはログイン成功画面のViewにユーザー情報を渡す
-6) Viewは渡されたユーザー情報をHTMLに埋め込み、ログイン画面を生成
-7) ブラウザへレスポンスが届き、ログイン画面が表示される
+<img src="https://user-images.githubusercontent.com/36021748/68593225-4547c580-04d8-11ea-9ec3-ed591c7189f5.png" border="5">
+
+① ブラウザからメールアドレス・パスワードとともにリクエストが送信される
+② リクエストからControllerがメールアドレス・パスワードを受け取り、Modelに渡す
+③ Modelがメールアドレス・パスワードを用いてユーザー情報をデータベースに問い合わせ、結果を取得
+④ Controllerは問い合わせ結果を受け取る
+⑤ Controllerはログイン成功画面のViewにユーザー情報を渡す
+⑥ Viewは渡されたユーザー情報をHTMLに埋め込み、ログイン画面を生成
+⑦ ブラウザへレスポンスが届き、ログイン画面が表示される
 
 
 ### CoC（Convention over Configuration） - "設定より規約" という思想
